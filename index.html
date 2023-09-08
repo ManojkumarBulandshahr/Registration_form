@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="formbox">
+          <form action="" name="Registration-form-fill" onsubmit="return validation()">
+
+            <h1>Registration Form</h1>
+
+            <!-- INPUT USER NAME -->
+            <div class="inputbox">
+                <i class='bx bxs-user'></i>
+                <input type="text" placeholder="User Name" id="userName" autocomplete="off">
+                <span id="usererror" class="danger" ></span>
+            </div>
+
+            <!-- INPUT EMAIL ID -->
+            <div class="inputbox">
+                <i class='bx bx-envelope'></i>
+                <input type="email" placeholder="Email address" id="email" autocomplete="off">
+                <span id="emailerror" class="danger" ></span>
+            </div>
+            
+            <!-- INPUT GENDER -->
+            <div class="inputbox">
+
+                <i class='bx bxs-user-detail'></i>
+
+                <input type="text" id="Gender" placeholder="Gender" id="Gender" autocomplete="off" >
+
+                <span id="cgender" class="danger" ></span>
+                
+            </div>
+
+            <!-- INPUT MOBILE NUMBER -->
+            <div class="inputbox">
+                <i class='bx bxs-phone'></i>
+                <input type="text" placeholder="Mobile no." id="mobile" autocomplete="off" >
+                <span id="mobileno" class="danger" ></span>
+            </div>
+    
+            <!-- INPUT PASSWORD -->
+            <div class="inputbox">
+                <i class='bx bxs-lock-alt'></i>
+                <input type="password" placeholder="password" id="password" autocomplete="off">
+                <span id="pass" class="danger" ></span>
+            </div>
+    
+            <!-- CONFORM PASSWORD -->
+            <div class="inputbox">
+                <i class='bx bxs-lock-alt'></i>
+                <input type="password" placeholder="Conform password" id="cpassword" autocomplete="off">
+                <span id="conformpass" class="danger" ></span>
+            </div>
+    
+            <!-- REGISTER BUTTON -->
+            
+
+                <input type="submit" class="btn" value="submit" name="submit" id="Register" class="Registerbtn" >
+
+            
+
+            <!-- OTHER LINKS -->
+            <div class="links">
+
+                <span><a href="#">Forget password</a></span>
+                <span><a href="#">Login</a></span>
+            </div>
+    
+
+        </form>
+       
+
+     </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
