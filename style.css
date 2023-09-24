@@ -23,7 +23,7 @@ body{
     background-color: #189AB4;
     position:relative;
     width: 450px;
-    height: 650px;
+    height: 600px;
     border: 3px solid rgb(0, 68, 255);
     border-radius: 20px;
     /* backdrop-filter: blure(100px); */
@@ -100,4 +100,13 @@ input::placeholder{
     color: red;
     outline: none;
     font-weight: bold;
+}
+.check{
+    display: inline-block ;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#term{
+    padding-left: 5px;
+    color: white;
 }
